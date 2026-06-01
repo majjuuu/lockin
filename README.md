@@ -30,23 +30,6 @@ lockin/
     └── App.jsx       the entire app (all screens live here for now)
 ```
 
-## Push it to GitHub
-
-1. On github.com, create a **new empty repository** named `lockin`
-   (do NOT add a README or .gitignore there — this folder already has them).
-2. In a terminal, from inside this folder:
-
-```bash
-git init
-git add .
-git commit -m "Initial commit: LockIn prototype"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/lockin.git
-git push -u origin main
-```
-
-The `.gitignore` keeps `node_modules/` out of the repo — that folder is huge and
-gets rebuilt by `npm install`, so it should never be committed.
 
 ## Roadmap
 
