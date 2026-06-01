@@ -35,10 +35,6 @@ lockin/
     └── App.jsx       the entire app (all screens live here for now)
 ```
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 500b1110b0a80b906de995c58105337ecce06ef0
 ## Roadmap
 
 - Persist data (swap in-memory state for localStorage), then add a web app
